@@ -3,8 +3,12 @@
   "extends": [
     "tslint:latest",
     "tslint-react",
+    "tslint-react-hooks",
     "tslint-config-airbnb",
     "tslint-config-prettier"
   ],
-  "jsRules": {}
+  "jsRules": {},
+  "rules": {
+    "react-hooks-nesting": "error"
+  }
 }
